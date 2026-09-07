@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>九羽 于 · 全栈工程师 / AI 应用开发</title>
+<title>星野 凛 · 全栈工程师 / AI 应用开发</title>
 <style>
   :root{
     --bg:#05070f;
@@ -277,7 +277,7 @@
         <div class="status">ONLINE</div>
       </div>
 
-      <div class="name">九羽 于</div> <!-- 【替换为你的真实姓名】 -->
+      <div class="name">【你的姓名】</div> <!-- 真名；角色卡里的「凛/Rin」是虚拟代号 -->
       <div class="jp">HOSHINO RIN · スターフィールド</div>
       <div class="role">
         <span class="tag">全栈工程师</span>
@@ -287,20 +287,21 @@
     </div>
 
     <div class="card">
-      <h2><span class="icon">◈</span> joystudying</h2>
-      <div class="line"><span class="ic">✉</span>1300889087@qq.com</div>
-      <div class="line"><span class="ic">☎</span>15102019371</div>
-      <div class="line"><span class="ic">⌘</span><a href="#">github.com/joy</a></div>
-      <div class="line"><span class="ic">◉</span>广东 · 应届可全职</div>
+      <h2><span class="icon">◈</span> 联系方式</h2>
+      <div class="line"><span class="ic">✉</span>【你的邮箱】</div>
+      <div class="line"><span class="ic">☎</span>【你的电话】</div>
+      <div class="line"><span class="ic">⌘</span><a href="#">github.com/【你的ID】</a></div>
+      <div class="line"><span class="ic">◉</span>【你的城市】 · 应届可全职</div>
     </div>
 
     <div class="card">
       <h2><span class="icon">⚙</span> 技术栈</h2>
-      <div class="skill"><div class="top"><b>前端</b><span>React / Vue / TS</span></div><div class="bar"><i data-w="85"></i></div></div>
-      <div class="skill"><div class="top"><b>后端</b><span>Node / Python / Go</span></div><div class="bar"><i data-w="80"></i></div></div>
-      <div class="skill"><div class="top"><b>AI / LLM</b><span>Prompt · RAG · Agent</span></div><div class="bar"><i data-w="88"></i></div></div>
-      <div class="skill"><div class="top"><b>数据</b><span>SQL / Pandas / 可视化</span></div><div class="bar"><i data-w="75"></i></div></div>
-      <div class="skill"><div class="top"><b>工程化</b><span>Docker / Git / CI</span></div><div class="bar"><i data-w="72"></i></div></div>
+      <div class="skill"><div class="top"><b>编程语言</b><span>C++ / Python / Java / Go / TypeScript</span></div><div class="bar"><i data-w="90"></i></div></div>
+      <div class="skill"><div class="top"><b>前端</b><span>React / Vue / Next.js / 小程序</span></div><div class="bar"><i data-w="85"></i></div></div>
+      <div class="skill"><div class="top"><b>后端 / 分布式</b><span>Go / Node / gRPC / Redis / MySQL</span></div><div class="bar"><i data-w="82"></i></div></div>
+      <div class="skill"><div class="top"><b>AI / LLM</b><span>Prompt · RAG · Agent · 微调</span></div><div class="bar"><i data-w="88"></i></div></div>
+      <div class="skill"><div class="top"><b>算法 / 数据</b><span>数据结构 · SQL · Pandas · 可视化</span></div><div class="bar"><i data-w="80"></i></div></div>
+      <div class="skill"><div class="top"><b>工程化</b><span>Git · Docker · K8s · CI/CD</span></div><div class="bar"><i data-w="75"></i></div></div>
     </div>
 
     <div class="card charcard">
@@ -326,21 +327,21 @@
       <h2><span class="icon">◈</span> 项目经历</h2>
 
       <div class="proj">
-        <div class="p-head"><h3>【项目名称一】</h3><span class="metric">▲ 影响力 / 用户数</span></div>
-        <div class="p-tags"><span>LLM</span><span>RAG</span><span>TypeScript</span><span>向量数据库</span></div>
-        <p>基于大语言模型与检索增强（RAG）构建的【智能问答 / 助手 / 工具】。负责【架构设计 / 数据链路 / 前端实现】，优化了【关键环节】。</p>
+        <div class="p-head"><h3>基于 RAG 的智能知识库问答系统</h3><span class="metric">独立开发</span></div>
+        <div class="p-tags"><span>LLM</span><span>RAG</span><span>Python</span><span>FastAPI</span><span>向量库</span></div>
+        <p>搭建「文档解析 → 切片 → 向量化 → 召回 → 重排 → 生成」完整链路，支持 PDF / 网页多源接入；通过混合检索与 Prompt 优化降低幻觉，回答相关性与响应速度显著提升，并封装成可交互的对话界面部署上线。</p>
       </div>
 
       <div class="proj">
-        <div class="p-head"><h3>【项目名称二】</h3><span class="metric">▲ 开源 · ★ 2k+</span></div>
-        <div class="p-tags"><span>Python</span><span>FastAPI</span><span>Docker</span><span>CI/CD</span></div>
-        <p>从 0 到 1 设计并实现的后端服务，抽象出可复用的【模块 / 中间件】，通过自动化测试与流水线保证交付质量。</p>
+        <div class="p-head"><h3>高并发短链接服务</h3><span class="metric">后端 / 分布式</span></div>
+        <div class="p-tags"><span>Go</span><span>Redis</span><span>MySQL</span><span>Docker</span></div>
+        <p>从 0 到 1 实现的高并发短链接服务：设计发号与 62 进制编码、热点缓存、限流与过期回收策略；通过连接池与批量写入优化吞吐，并用压测工具验证稳定性，沉淀了清晰的分层设计与单元测试。</p>
       </div>
 
       <div class="proj">
-        <div class="p-head"><h3>【项目名称三】</h3><span class="metric">▲ 数据驱动</span></div>
-        <div class="p-tags"><span>数据分析</span><span>可视化</span><span>Pandas</span></div>
-        <p>对【某业务 / 数据集】进行分析与建模，产出可交互看板与洞察报告，推动【某决策 / 优化】落地。</p>
+        <div class="p-head"><h3>校园二手交易平台（全栈）</h3><span class="metric">全栈</span></div>
+        <div class="p-tags"><span>React</span><span>Node.js</span><span>WebSocket</span><span>MySQL</span></div>
+        <p>设计并实现前后端分离的交易平台，含鉴权、发布、私聊（WebSocket 实时通信）与搜索；对接口做缓存与参数校验，前端做组件化与骨架屏优化，兼顾体验与安全。</p>
       </div>
     </div>
 
@@ -367,21 +368,42 @@
     </div>
 
     <div class="card reveal">
+      <h2><span class="icon">◈</span> 竞赛经历</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-head"><h3>【算法竞赛，如 ACM-ICPC / CCPC 区域赛】</h3><span class="org">【名次 / 奖牌】</span></div>
+          <div class="tl-time">【年份】</div>
+          <p>【一句话：负责算法设计 / 攻坚哪类问题 / 团队分工】</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-head"><h3>【建模 / 数据竞赛，如 数学建模 / Kaggle】</h3><span class="org">【奖项】</span></div>
+          <div class="tl-time">【年份】</div>
+          <p>【一句话：负责建模 / 特征工程 / 数据清洗，产出什么结果】</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-head"><h3>【创新创业 / 开源，如 互联网+ / 挑战杯 / 开源贡献】</h3><span class="org">【奖项】</span></div>
+          <div class="tl-time">【年份】</div>
+          <p>【一句话：你的角色与落地成果】</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card reveal">
       <h2><span class="icon">◈</span> 教育背景</h2>
       <div class="tl-item" style="padding:0 0 0 18px;">
-        <div class="tl-head"><h3>【专业名称】</h3><span class="org">【学校名】</span></div>
+        <div class="tl-head"><h3>计算机科学与技术</h3><span class="org">C9 高校</span></div>
         <div class="tl-time">【20XX.09 — 20XX.06】 · 本科 · GPA【X.X/4.0】</div>
-        <p>主修课程：数据结构、操作系统、数据库、机器学习、计算机网络。</p>
+        <p>主修课程：数据结构与算法、操作系统、计算机网络、数据库系统、编译原理、机器学习、分布式系统。</p>
       </div>
     </div>
 
     <div class="card reveal">
       <h2><span class="icon">◈</span> 荣誉 &amp; 证书</h2>
       <div class="awards">
-        <div class="award"><div class="a-name">【奖项名称】</div><div class="a-meta">【20XX】</div><div class="a-level">★【级别】</div></div>
-        <div class="award"><div class="a-name">【奖项名称】</div><div class="a-meta">【20XX】</div><div class="a-level">★【级别】</div></div>
-        <div class="award"><div class="a-name">【证书：如 CET-6 / 软考 / 云厂商认证】</div><div class="a-meta">【20XX】</div></div>
-        <div class="award"><div class="a-name">【竞赛 / 活动经历】</div><div class="a-meta">【20XX】</div></div>
+        <div class="award"><div class="a-name">校奖学金</div><div class="a-meta">【年份】</div><div class="a-level">★【等级】</div></div>
+        <div class="award"><div class="a-name">程序设计竞赛</div><div class="a-meta">【年份】</div><div class="a-level">★【奖项】</div></div>
+        <div class="award"><div class="a-name">CET-6 · 大学英语六级</div><div class="a-meta">【年份】</div></div>
+        <div class="award"><div class="a-name">【其它：软考 / 云厂商认证 / 开源贡献】</div><div class="a-meta">【年份】</div></div>
       </div>
     </div>
 
@@ -462,4 +484,3 @@
 </script>
 </body>
 </html>
-
