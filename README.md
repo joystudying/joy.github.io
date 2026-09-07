@@ -287,11 +287,11 @@
     </div>
 
     <div class="card">
-      <h2><span class="icon">◈</span> 联系方式</h2>
-      <div class="line"><span class="ic">✉</span>【你的邮箱】</div>
-      <div class="line"><span class="ic">☎</span>【你的电话】</div>
-      <div class="line"><span class="ic">⌘</span><a href="#">github.com/【你的ID】</a></div>
-      <div class="line"><span class="ic">◉</span>【你的城市】 · 应届可全职</div>
+      <h2><span class="icon">◈</span> joystudying</h2>
+      <div class="line"><span class="ic">✉</span>1300889087@qq.com</div>
+      <div class="line"><span class="ic">☎</span>15102019371</div>
+      <div class="line"><span class="ic">⌘</span><a href="#">github.com/joy</a></div>
+      <div class="line"><span class="ic">◉</span>广东 · 应届可全职</div>
     </div>
 
     <div class="card">
